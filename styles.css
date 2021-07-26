@@ -26,9 +26,9 @@ margin-right: auto;
 padding-top: 200px;
 padding-bottom: 280px;
 text-align: center;}
-section>h2 {font-size: 36px;
-font-weight: bold;
-line-height: 1.17;} 
+section>h2, .clients h2 {font-size: 36px;
+    font-weight: bold;
+    line-height: 1.17;} 
 .team p {font-size: 16px;
 line-height: 1.1875;
 color: #757575;
@@ -94,6 +94,12 @@ border-bottom: 1px solid #ECECEC;
 display: flex;
 flex-direction: column;
 align-items: center;
+background-image: linear-gradient(
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)),
+     url("images/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .main-sign.section {padding-top: 0;
 padding-bottom: 0;}
@@ -162,6 +168,11 @@ color: #ffffff;}
 .portfolio-item {margin-bottom: 30px;
     border-bottom: 1px solid #EEEEEE;}
 
+.portfolio-item:hover{
+        box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+        cursor: pointer;
+    }
+
 .portfolio-list {display: flex;
     flex-wrap: wrap;
     margin-top: -138px;
@@ -198,3 +209,85 @@ color: #ffffff;}
     border-radius: 4px;
     margin-bottom: 30px;
 }
+
+.employees-social-list{
+    display:flex;
+    padding-bottom: 30px;
+}
+.clients-container{
+    width:170px;
+    height:92px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #AFB1B8;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.clients-list{
+    display: flex;
+    justify-content: space-between;
+}
+
+.clients-logo{
+    fill:#AFB1B8;
+}
+
+.clients-container:hover,
+.clients-container:focus
+{
+    border-color: #2196F3;
+    cursor: pointer;
+}
+
+.clients-container:hover .clients-logo,
+.clients-container:focus .clients-logo
+{
+    fill:#2196F3;
+}
+
+.clients h2 {
+    text-align: center;
+    padding-bottom: 50px;
+}
+.footer .third-header{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.143;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color:#ffffff;
+    }
+    
+    .footer .social-link{
+        background-color: rgba(255, 255, 255, 0.1);
+    }
+    
+    .footer .social-link:hover,
+    .footer .social-link:focus
+    {
+        background-color: #2196F3;
+    }
+    
+    .footer .social-icon{
+        fill:#ffffff;
+    }
+    
+    
+    .footer-social-list{
+        display: flex;
+    }
+    
+    .footer-social{
+        margin-left: 70px;
+        padding-top: 12px;
+    }
+    
+    .footer .third-header{
+        padding-bottom: 20px;
+    }
+    .footer.container{
+        display: flex;
+    }
