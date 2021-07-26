@@ -295,3 +295,7 @@ color: #ffffff;}
     .footer.container{
         display: flex;
     }
+   .social-icon {
+        width: 20px;
+        height: 20px;
+    }
