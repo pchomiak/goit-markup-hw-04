@@ -16,6 +16,15 @@ line-height: 1.17;
 .menu {font-size: 14px;
 line-height: 1.17;}
 .agency, .portfolio {color: #2196F3;}
+.icon-phone, .icon-envelope {margin-right: 10px;}
+.icon-phone:hover,
+.icon-envelope:focus,
+.interactive.contact:hover
+.interactive.contact:focus
+{
+    color:#2196F3;
+    fill:#2196F3;
+}
 .main-sign h1 {font-size: 44px;
 font-weight: 900;
 line-height: 1.36;
@@ -276,7 +285,7 @@ color: #ffffff;}
     }
     .social-link:hover,
 .social-link:focus{
-    background-color:#2196F;
+    background-color: #2196F3;
 }
     .footer .social-link{
         background-color: rgba(255, 255, 255, 0.1);
