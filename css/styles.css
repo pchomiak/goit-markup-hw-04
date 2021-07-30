@@ -79,7 +79,7 @@ body {
     margin-left: auto;
     margin-right: auto;
     padding-top: 200px;
-    padding-bottom: 280px;
+    padding-bottom: 20px;
     text-align: center;
 }
 
@@ -140,7 +140,7 @@ span {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: -250px;
+    
 }
 
 a {
@@ -223,7 +223,7 @@ footer,
     align-items: center;
     background-image: linear-gradient(rgba(47, 48, 58, 0.4),
             rgba(47, 48, 58, 0.4)),
-        url("images/background.jpg");
+        url("./images/background.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -255,7 +255,7 @@ div h3 {
 }
 
 .what-we-do.section.container h2 {
-    margin-left: 624px;
+    text-align: center;
     margin-bottom: 50px;
 }
 
@@ -264,7 +264,8 @@ div h3 {
 }
 
 .ourteam h2 {
-    margin-left: 695px;
+    /* margin-left: 695px; */
+    text-align: center;
     margin-bottom: 50px;
 }
 
@@ -278,7 +279,7 @@ div h3 {
     margin-left: 215px;
 }
 
-.team li:not(:last-child) {
+.team.list>li:not(:last-child) {
     margin-right: 30px;
 }
 
@@ -304,6 +305,8 @@ div h3 {
 .team.list .social-icon {
     fill: #AFB1B8;
 }
+
+#icon-facebook {width: 100px;}
 
 .footer {
     margin-left: 215px;
@@ -403,6 +406,7 @@ footer {
 .employees-social-list {
     display: flex;
     padding-bottom: 30px;
+    justify-content: center;
 }
 
 .clients-container {
